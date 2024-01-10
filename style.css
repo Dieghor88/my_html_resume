@@ -1,0 +1,202 @@
+body {
+    background-color: #FFF3E1    
+}
+
+.cv_body {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+/* Header styles */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-left: 21px;
+}
+
+.introduction_h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    letter-spacing: 11px;
+    color: #6D6E71;
+    margin-top: 20px;
+}
+
+.full_name {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 80px;
+    letter-spacing: 13.7px;
+    color: #58595B;
+    margin-bottom: 10px;
+}
+
+.professions_h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #E5283F;
+    margin-top: 10px;
+}
+
+.email_h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4.3px;
+    margin-top: 20px;
+    margin-bottom: 05px;
+    display: inline;
+}
+
+.avatar {
+    margin-top: 15px;
+    margin-left: 18px;
+    transform: rotate(5deg);
+    width: 170px;
+    height: 225px;
+    border: 12px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    border: 2px solid;
+    border-radius: 2px;
+    border-color: #58595B;
+    width: 800px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+.education_title {
+    display: flex;
+    align-items: center;
+}
+
+.edu_icon {
+    font-size: 65px;
+    color: #58595B;
+    vertical-align: middle;
+}
+
+.education_h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 38px;
+    letter-spacing: 7px;
+    color: #E5283F;
+    margin-bottom: 00px;
+}
+
+.education_list {
+    font-family: "Trebuchet MS", regular;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    color: #6D6E71;
+}
+
+.skill_box {
+    font-family: "Trebuchet MS", regular;
+    font-size: 16px;
+    color: #58595B;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 4px solid;
+    font-weight: bold;
+}
+.skill_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 38px;
+    letter-spacing: 7px;
+    font-weight: bold;
+    color: #E5283F;
+    text-align: center;
+    border: 4px solid;
+    border-radius: 40px;
+    padding:3px 5px;
+    padding-right: 13px;
+    border-color: #58595B;
+    }
+
+.skill_apps {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 15px;
+}
+
+.skill_lang {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 15px;
+}
+
+.skill_icon {
+    font-size: 60px;
+    color: #58595B;
+    margin-right: 10px;
+}
+
+.hr_skills {
+    width: 330px;
+    margin-left: 14px;
+}
+
+.skill_arts {
+    display: inline;
+}
+
+
+.experience_block {
+    margin-left: 10px;
+    margin-right: 54px;
+}
+
+.work_icon {
+    font-size: 65px;
+    color: #58595B;
+    vertical-align: middle;
+}
+
+.experience_list {
+    font-family: "Trebuchet MS", regular;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-right: 95px;
+    color: #6D6E71;
+}
+
+.content {
+    content: "";
+    display: flex;
+    clear: both;
+    justify-content: center;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .column {
+        max-width: 100%;
+    }
+}
